@@ -87,7 +87,7 @@ module Pngquant
     end
 
     # Override
-    opts["--force"] = options[:force].nil?? true: options[:force]
+    opts["--force"] = true
 
     opts
 
